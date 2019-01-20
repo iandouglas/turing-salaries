@@ -5,6 +5,7 @@ class CreateJobs < ActiveRecord::Migration[5.2]
       t.references :city, foreign_key: true
 
       t.string :title
+      t.string :company
 
       t.integer :base_salary
       t.integer :has_nearterm_perf_review, default: 2

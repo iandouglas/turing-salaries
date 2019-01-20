@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 2019_01_20_052758) do
     t.bigint "user_id"
     t.bigint "city_id"
     t.string "title"
+    t.string "company"
     t.integer "base_salary"
     t.integer "has_nearterm_perf_review", default: 2
     t.text "salary_notes"

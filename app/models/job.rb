@@ -2,8 +2,7 @@ class Job < ApplicationRecord
   belongs_to :user
   belongs_to :city
 
-
-  validates_presence_of :title, :base_salary
+  validates_presence_of :title, :base_salary, :company
 
   YES_NO_UNKNOWN = [:no, :yes, :unknown].freeze
 

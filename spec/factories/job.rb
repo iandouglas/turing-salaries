@@ -3,6 +3,7 @@ FactoryBot.define do
     user
     city
     sequence(:title) { |n| "Fake Job Title #{n}" }
+    sequence(:company) { |n| "Fake Company #{n}" }
     sequence(:base_salary) { |n| ("#{n}".to_i*1000)+70000 }
 
     has_nearterm_perf_review { 1 }
