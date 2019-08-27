@@ -1,24 +1,12 @@
-# README
+# Turing Salaries
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app will allow students to enter salary data from job offers they have received and accepted. We also want a means for students to be able to search for data within the app to find cities and companies where they might have interest applying for work.
 
-Things you may want to cover:
+It would also be nice to allow public access to view this data so employers can see what other companies/cities are offering for particular roles.
 
-* Ruby version
+Once a student enters some new salary data, we'd like the app to post the data in our salaries channel in Slack at Turing to have discussion over the job post, etc..
 
-* System dependencies
 
-* Configuration
+## Work In Progress
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is not complete and not hosted anywhere.
